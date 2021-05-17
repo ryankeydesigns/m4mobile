@@ -67,7 +67,8 @@
         "meta_descr": "Our App Deliver your Product More Faster, To increase sales by skyrocketing communication with All messages in one simple dashboard it now takes seconds.",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/m4mobile-680x355.jpg"
       },
       "components": [
         {
