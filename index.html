@@ -32,27 +32,9 @@
   
   
   <script type="text/javascript">
-	var noRedirect = location.search.split('noRedirect=')[1]
-	if((noRedirect == null) || noRedirect.toString() != 'true') {
-		if(navigator.userAgent.match(/Android/i)
-			||
-			navigator.userAgent.match(/webOS/i)
-			||
-			navigator.userAgent.match(/iPhone/i)
-			||
-			navigator.userAgent.match(/iPad/i)
-			||
-			navigator.userAgent.match(/iPod/i)
-			||
-			navigator.userAgent.match(/BlackBerry/i)
-			||
-			navigator.userAgent.match(/Windows Phone/i)
-			 )
-		{
-			location.href = 'http://ryankey.com.my/';
-		}
-	}
-
+$agent = $_SERVER['HTTP_USER_AGENT'];
+if(strpos($agent,"comFront") || strpos($agent,"iPhone") || strpos($agent,"MIDP-2.0") || strpos($agent,"Opera Mini") || strpos($agent,"UCWEB") || strpos($agent,"Android") ||         strpos($agent,"Windows CE") || strpos($agent,"SymbianOS"))
+header("Location:http://ryankey.com.my/");
 </script>
 
 <!-- Facebook Pixel Code -->
@@ -801,7 +783,7 @@ src="https://www.facebook.com/tr?id=469768050978904&ev=PageView&noscript=1"
                     inbox!</h4>
                 <div class="form1" data-form-type="formoid">
                     <!---Formbuilder Form--->
-                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler px-2" data-form-title="My Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="MFrULNu8g7F7XJv2A27K4BsFNTJoLEBOVn8vGx2HfsK1MRf/r07Ke/+tqFDnDtpULkB3ObMTpGYtIzOdr3fxLvk/itgeVT+DTb5a0E52ifu/51prSpPVu7+fXgaW+HIo.JdM0OGM2UewS3a6ki9nLpCKQ7oIDaB+DrVDpRyy7LcQcj64s8snwo+5aoWCjMtRLx9K3NcHKG89v2/5uvkMlK8Mhk0DxOD/tAfY9IoqagD3AfGzedXGahqooDBdfMkPd">
+                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler px-2" data-form-title="My Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="ASlrnd+uqfGLPwSElrYcO0vFQsgoizhdI4tIV1KoMNkjm3XCcw5mG4V5ewsbrY7RF9q2N2zyoZ7UQV8lb4VvEQG/r0jiGYpphOF93WOlBwbrIS3PCKayz/cxEQ7yKpzx.hpNBOr1twWZORYpKrV2htly5OkqnC5n7kZQBO7ZXg+SuCll8lEpZpBZam5IQ7q5TJz30rTAJyascsTQzMXkiDrKVwfjTkqthq/XUssLNKIu8tCRCF6relCbG/sdMfS8F">
                         <div class="row">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling
                                 out the form!</div>
