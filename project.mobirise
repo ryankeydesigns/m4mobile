@@ -31,7 +31,7 @@
       "presetSourceTheme": "digitalm4"
     },
     "path": "@PROJECT_PATH@",
-    "name": "M4Mobile ",
+    "name": "M4Mobile Main",
     "versionFirst": "5.3.0",
     "siteFonts": [
       {
@@ -43,7 +43,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": false,
-    "mbrsiteDomain": "mcmlwnw8cn",
+    "mbrsiteDomain": "upox5bd5aq",
     "cssOptimize": false,
     "lazyLoad": false,
     "lazyType": "nothing",
